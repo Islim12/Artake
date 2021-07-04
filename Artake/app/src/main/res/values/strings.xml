@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Artake</string>
+
+    <string name="name_hint">Name</string>
+    <string name="password_hint">Password</string>
+
+    <string name="mail_address">Mail Address</string>
+    <string name="register_password">Password</string>
+    <string name="register_name_surname">Full Name</string>
+    <string name="register_phone_number">Phone Number</string>
+
+    <!-- Bottom Navigation Titles -->
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_create">Create</string>
+    <string name="bottom_nav_campaign">Campaign</string>
+    <string name="bottom_nav_profile">Profile</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar_search">Search</string>
+    <string name="button_register">Register</string>
+    <string name="text_control">Don\'t you have an account? Register✨</string>
+
+    <string name="seller_name">Seller Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_image_url">Product Image URL</string>
+
+    <string name="button_add_product">Add Product</string>
+    <string name="button_detail">Info</string>
+    <string name="button_add_cart">Add</string>
+    <string name="select_frame">Do you want it in a frame? \n Pick a color!🖼️</string>
+
+    <string name="chip_off_white">Off-White</string>
+    <string name="chip_black">Black</string>
+    <string name="chip_brown">Brown</string>
+    <string name="chip_beige">Beige</string>
+    <string name="toolbar_cart">Add to Cart</string>
+    <string name="remove_cart">Remove from Cart</string>
+    <string name="bottom_nav_cart">Cart</string>
+</resources>
