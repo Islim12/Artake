@@ -13,6 +13,21 @@
         android:background="@drawable/bg_login"
         tools:context=".fragment.RegisterPageFragment">
 
+        <TextView
+            android:id="@+id/textViewRegisterAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:fontFamily="@font/expletus_sans_medium"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout3"
             android:layout_width="match_parent"
@@ -91,16 +106,29 @@
 
         <Button
             android:id="@+id/buttonRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
             android:onClick="@{() -> registerPageFragment.buttonRegister(editTextRegisterMailAdress.getText().toString(), editTextRegisterPassword.getText().toString(), editTextRegisterNameSurname.getText().toString(), editTextRegisterPhoneNumber.getText().toString())}"
             android:text="@string/button_register"
             android:textAllCaps="false"
-            android:textSize="18sp"
-            app:cornerRadius="20dp"
+            app:cornerRadius="100dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout6" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/expletus_sans_medium"
+            android:text="@string/text_register"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRegisterAppName" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -1,9 +1,11 @@
 package com.islimakkaya.artake.adapter
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.view.isVisible
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.islimakkaya.artake.MainActivity
@@ -42,6 +44,9 @@ class ArtAdapter(var mContext: Context,
         val url = art.art_image_url
         Picasso.get().load(url).into(holder.cardDesignBinding.imageViewProduct)
 
+        if (art.is_campaign_product == 1) {
+            holder.cardDesignBinding.textViewProductPrice.setTextColor(Color.RED)
+        }
 
         holder.cardDesignBinding.buttonLook.setOnClickListener {
             val transition = HomePageFragmentDirections.toArtsDetailPage(art)

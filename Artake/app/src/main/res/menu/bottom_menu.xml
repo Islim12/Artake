@@ -11,6 +11,11 @@
         android:icon="@drawable/ic_shopping_cart"
         android:title="@string/bottom_nav_cart" />
     <item
+        android:id="@+id/tutorialPageFragment"
+        android:icon="@drawable/ic_brush"
+        android:title="@string/bottom_nav_create" />
+
+    <item
         android:id="@+id/campaignPageFragment"
         android:icon="@drawable/ic_campaign"
         android:title="@string/bottom_nav_campaign" />
