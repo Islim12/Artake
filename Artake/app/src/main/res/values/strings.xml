@@ -17,14 +17,14 @@
     <string name="text_tutorial_watercolor_paper">Regular paper is manufactured from wood fibers. It is thin and lightweight and absorbs pigment a lot faster than watercolor paper. Watercolor painting brings water into the picture, and hence, when ordinary paper is used, it absorbs the pigment rapidly and warps. It also tears with ease due to the dampness, meaning the whole project is quite tricky to complete successfully.\nSpecial watercolor paper, on the other hand, is made from cotton fibers (it might be pure cotton or blended with wood pulp). This paper is heavier than ordinary paper and also a bit rougher, and hence it absorbs the pigment at just the right rate and does not get ripped by the dampness.</string>
 
     <!-- Text Input Hints -->
-    <string name="name_hint">Name</string>
+    <string name="name_hint">Email Address</string>
     <string name="password_hint">Password</string>
     <string name="seller_name">Seller Name</string>
     <string name="product_name">Product Name</string>
     <string name="product_price">Product Price</string>
     <string name="product_description">Product Description</string>
     <string name="product_image_url">Product Image URL</string>
-    <string name="mail_address">Mail Address</string>
+    <string name="mail_address">Email Address</string>
     <string name="register_password">Password</string>
     <string name="register_name_surname">Full Name</string>
     <string name="register_phone_number">Phone Number</string>
