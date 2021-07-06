@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Artake</string>
+
+    <!-- Bottom Navigation Titles -->
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_create">Create</string>
+    <string name="bottom_nav_campaign">Campaign</string>
+    <string name="bottom_nav_profile">Profile</string>
+    <string name="bottom_nav_cart">Cart</string>
+
+    <!-- TextView Texts -->
+    <string name="text_control">Don\'t you have an account? Register✨</string>
+    <string name="text_register">Register</string>
+    <string name="text_tutorial">Supplies:\nBefore you get started with watercolors, you will need a few basic supplies.They include:\n1. Watercolors\n2. Brushes\n3. Watercolor Paper\n4. Water + Cloth</string>
+    <string name="text_tutorial_watercolor">It is all about the water!\nFor a start, watercolor paints are transparent. The colored pigments in paint get diluted in water, which makes them liquid enough to spread across the paper. As the paint dries, the water evaporates and the colored pigments fix to the surface of the paper. The ratio of pigment to water has a direct effect on the transparency of your watercolors.\nThe more water you add, the more diluted and transparent the mixture becomes, and the lighter the tone of your brush marks.</string>
+    <string name="text_tutorial_watercolor_brush">Artists\' paintbrushes come in an array of sizes, shapes, and hairs. The size of a brush is indicated by a number printed on the handle. Brushes start from 000, then go to 00, 0, 1, 2, and up. The higher the number, the bigger or wider the brush.\nWhen choosing a brush, examine each part of it. All the variabilities can affect your work. The length is variable, from really short to really long (ideal for big canvases). What is more important than length is that the brush feels balanced in your hand. You are going to be using it a lot, so it needs to be comfortable to hold.</string>
+    <string name="text_tutorial_watercolor_paper">Regular paper is manufactured from wood fibers. It is thin and lightweight and absorbs pigment a lot faster than watercolor paper. Watercolor painting brings water into the picture, and hence, when ordinary paper is used, it absorbs the pigment rapidly and warps. It also tears with ease due to the dampness, meaning the whole project is quite tricky to complete successfully.\nSpecial watercolor paper, on the other hand, is made from cotton fibers (it might be pure cotton or blended with wood pulp). This paper is heavier than ordinary paper and also a bit rougher, and hence it absorbs the pigment at just the right rate and does not get ripped by the dampness.</string>
+
+    <!-- Text Input Hints -->
+    <string name="name_hint">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_image_url">Product Image URL</string>
+    <string name="mail_address">Mail Address</string>
+    <string name="register_password">Password</string>
+    <string name="register_name_surname">Full Name</string>
+    <string name="register_phone_number">Phone Number</string>
+
+    <!-- Button Names -->
+    <string name="button_add_product">Add Product</string>
+    <string name="button_detail">Info</string>
+    <string name="button_add_cart">Add</string>
+    <string name="button_register">Register</string>
+    <string name="remove_cart">Remove from Cart</string>
+
+    <!-- Toast Messages -->
+    <string name="select_frame">Do you want it in a frame? \n Pick a color!🖼️</string>
+
+    <!-- Chip Names -->
+    <string name="chip_off_white">Off-White</string>
+    <string name="chip_black">Black</string>
+    <string name="chip_brown">Brown</string>
+    <string name="chip_beige">Beige</string>
+
+</resources>

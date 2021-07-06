@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="personList"
+            type="com.islimakkaya.artake.entity.Profile" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_profile"
+        tools:context=".fragment.ProfilePageFragment">
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/profile_picture"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:backgroundTint="@color/orange"
+            android:clickable="false"
+            android:fontFamily="@font/raleway_medium"
+            android:text='@{"Full Name: "+ personList.name_surname}'
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/artist"
+            app:iconSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewProfile" />
+
+        <Button
+            android:id="@+id/profileEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/orange"
+            android:clickable="false"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:text='@{"Email Address: "+ personList.mail_address}'
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileName" />
+
+        <Button
+            android:id="@+id/profilePhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/orange"
+            android:clickable="false"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:text='@{"Phone Number: "+ personList.phone_number}'
+            android:textAllCaps="false"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileEmailAddress" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
