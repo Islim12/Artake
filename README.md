@@ -6,11 +6,8 @@ I want to expand "encourage" part on the application in future. Therefore, I can
 🔨You can download and build this project on Android Studio. The project's SDK is API 22: Android 5.1. Hence, you must run the app on the virtual devices that have minimum API level 22.
 
 
-🔑You can change the home page in main_nav.xml or log in with the user information below to view the app: 
+🔑 You can register and log in or change the home page in main_nav.xml to view the app.
 
-Mail Address: islimakkaya@gmail.com
-
-Password: islim123
 
 📱Since the goal was doing a web-based application, most of the images are from multiple websites.
 
