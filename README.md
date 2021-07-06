@@ -1,7 +1,7 @@
 # Artake
 
 👩‍🎨Artake is my capstone project and an e-commerce web-based Android mobile application. I used MVVM pattern and RESTful API. In this project, I aimed to create a space where people, who are new to watercolor painting, can sell their arts and encourage people to start watercolor painting if they are interested. 
-I want to expand "encourge" part on the application in future. Therefore, I can say this is an ongoing project.
+I want to expand "encourage" part on the application in future. Therefore, I can say this is an ongoing project.
 
 🔨You can download and build this project on Android Studio. The project's SDK is API 22: Android 5.1. Hence, you must run the app on the virtual devices that have minimum API level 22.
 
